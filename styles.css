@@ -1,0 +1,75 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.prod-perf{
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: small;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+.name{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Fraunces', sans-serif;
+    color: hsl(212, 21%, 14%);
+}
+
+.description{
+    font-family:'Montserrat', sans-serif;
+    font-size: smaller;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+.price{
+    font-family: 'Fraunces', sans-serif;
+    display: inline;
+    justify-content: center;
+}
+
+.new-price{
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-size: larger;
+}
+
+.old-price{
+    font-size: x-small;
+    color: hsl(228, 12%, 48%);
+}
+
+.add-to-cart{
+
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline;
+    justify-content: center;
+    border-collapse: collapse;
+}
