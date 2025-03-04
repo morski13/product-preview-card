@@ -3,6 +3,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 100vh;
 }
 
 .container{
@@ -12,12 +15,13 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    width: 50%;
+    height: 60%;
 }
 
 .image-container{
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+    width: 100%;
+
 }
 
 .product-info{
