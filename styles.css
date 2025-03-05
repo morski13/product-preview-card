@@ -19,8 +19,9 @@ body{
     height: 60%;
 }
 
-.image-container{
+.image-container img{
     width: 100%;
+    height: auto;
 
 }
 
