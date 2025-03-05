@@ -14,8 +14,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    width: 50%;
-    height: 60%;
+    width: 40%;
+    height: 45%;
 }
 
 .image-container{
@@ -36,11 +36,12 @@ body{
     justify-content: center;
     padding: 20px;
     width: 50%;
+    gap: 20px auto;
 }
 
 .prod-perf{
     font-family:'Montserrat', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 6px;
     font-size: small;
     font-weight: 500;
     color: hsl(228, 12%, 48%);
@@ -48,7 +49,7 @@ body{
 
 .name{
     font-weight: 700;
-    font-size: large;
+    font-size: x-large;
     font-family: 'Fraunces', sans-serif;
     color: hsl(212, 21%, 14%);
 }
@@ -70,7 +71,7 @@ body{
 .new-price{
     font-weight: 700;
     color: hsl(158, 36%, 37%);
-    font-size: larger;
+    font-size: x-large;
 }
 
 .old-price{
@@ -94,5 +95,25 @@ body{
 }
 
 .add-to-cart:hover{
-    background-color: hsl(158, 44%, 29%);
+    background-color: hsl(158, 42%, 18%);
+}
+
+@media (max-width: 376px) {
+    .container {
+        flex-direction: column; /* Menja raspored na vertikalni */
+        width: 90%; /* Širi container da lepše izgleda na manjim ekranima */
+        height: auto; /* Da se visina prilagodi sadržaju */
+    }
+
+    .image-container img {
+        width: 100%; /* Slika sada zauzima celu širinu */
+        border-top-left-radius: 10px; 
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0; /* Uklanja se donje zaobljenje jer ide iznad teksta */
+    }
+
+    .product-info {
+        width: 100%; /* Tekst sada takođe zauzima celu širinu */
+        padding: 20px; /* Malo veći razmak da se lepo uklopi */
+    }
 }
