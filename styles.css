@@ -20,7 +20,7 @@ body{
 }
 
 .image-container img{
-    width: 50%;
+    width: 40%;
     height: auto;
 
 }
@@ -29,7 +29,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 10px;
-    width: 50%;
+    width: 40%;
 }
 
 .prod-perf{
