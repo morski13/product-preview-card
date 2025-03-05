@@ -35,7 +35,7 @@ body{
     justify-content: center;
     padding: 20px;
     width: 50%;
-    gap: 20px;
+    gap: 30px;
 }
 
 .prod-perf{
@@ -48,7 +48,7 @@ body{
 
 .name{
     font-weight: 700;
-    font-size: x-large;
+    font-size: xx-large;
     font-family: 'Fraunces', sans-serif;
     color: hsl(212, 21%, 14%);
 }
