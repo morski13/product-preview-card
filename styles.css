@@ -33,7 +33,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
     width: 50%;
     gap: 30px;
 }
@@ -48,7 +48,7 @@ body{
 
 .name{
     font-weight: 700;
-    font-size: xx-large;
+    font-size: x-large;
     font-family: 'Fraunces', sans-serif;
     color: hsl(212, 21%, 14%);
 }
@@ -70,7 +70,7 @@ body{
 .new-price{
     font-weight: 700;
     color: hsl(158, 36%, 37%);
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .old-price{
