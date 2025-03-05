@@ -116,7 +116,7 @@ body{
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-left-radius: 0;
-        content: url('./images/image-product-mobile.jpg'); /* Postavlja novu sliku za mobilne uređaje */
+        content: url('./images/image-product-mobile.jpg');
     }
 
     .product-info {
@@ -125,7 +125,7 @@ body{
     }
 
     .add-to-cart{
-        padding: 6px 12px;
-        font-size: x-small;
+        padding: 4px 8px;
+        font-size: xx-small;
     }
 }
