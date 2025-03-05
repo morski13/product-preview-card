@@ -55,7 +55,7 @@ body{
 
 .description{
     font-family:'Montserrat', sans-serif;
-    font-size: smaller;
+    font-size: small;
     font-weight: 500;
     color: hsl(228, 12%, 48%);
 }
@@ -70,7 +70,7 @@ body{
 .new-price{
     font-weight: 700;
     color: hsl(158, 36%, 37%);
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .old-price{
